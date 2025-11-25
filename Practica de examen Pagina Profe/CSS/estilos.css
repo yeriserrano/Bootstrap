@@ -1,0 +1,24 @@
+/* CSS INICIALES */
+
+/* Variables de colores y fuentes */
+:root{
+    --blanco:#fff;
+    --negro:#000;
+
+
+}
+/* Sirve para trabajar con multiplos de 10px */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* Sirve para que herede el box-sizing a todas las etiquetas */
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1,6rem;
+}
